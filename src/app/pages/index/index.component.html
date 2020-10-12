@@ -1,0 +1,13 @@
+<div class="search__container">
+    <form [formGroup]="searchForm">
+        <mat-form-field appearance="fill">
+            <mat-label>Seleccione una comuna</mat-label>
+            <mat-select formControlName="comunas">
+                <mat-option value="7">Region Metropolitana</mat-option>
+                <mat-option value="2">Bio Bio</mat-option>
+                <mat-option value="3">Iquique</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </form>
+</div>
+<div id="map" class="map-container"></div>
